@@ -75,5 +75,5 @@ if st.button("Enviar"):
         st.warning("Por favor, digite uma pergunta.")
 
 st.markdown("---")
-st.markdown("🔍 Precisa de ajuda? Consulte [a documentação](https://link-para-documentacao.com)")
+st.markdown("🔍 Precisa de ajuda? Consulte [a documentação](https://github.com/arthuraal/data-analyst-chatbot?tab=readme-ov-file)")
 
