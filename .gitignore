@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Poetry
+poetry.lock
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# FastAPI specific
+*.log
+*.db
+instance/
+
+# Streamlit specific
+.streamlit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+*.lcov
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# MacOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Others
+*.sqlite3
+*.pkl
+*.zip
+*.csv

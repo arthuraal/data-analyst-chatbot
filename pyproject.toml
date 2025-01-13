@@ -1,0 +1,29 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Data Analysis Chatbot with FastAPI and Streamlit"
+authors = [{ name = "Arthur Almeida" }]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "openai (==1.59.5)",
+    "pandas (==2.2.3)",
+    "psycopg2 (==2.9.10)",
+    "pydantic (==2.10.5)",
+    "sqlalchemy (==2.0.36)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "streamlit (>=1.41.1,<2.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "fastapi (>=0.115.6,<0.116.0)",
+    "boto3 (>=1.35.96,<2.0.0)",
+    "botocore (>=1.35.96,<2.0.0)",
+    "pytest (>=8.3.4,<9.0.0)",
+    "langchain-aws (>=0.2.10,<0.3.0)",
+    "langchain-openai (>=0.3.0,<0.4.0)",
+    "langchain-community (>=0.3.14,<0.4.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
