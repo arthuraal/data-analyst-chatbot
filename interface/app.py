@@ -28,7 +28,7 @@ with st.sidebar:
         Este chatbot utiliza um conjunto de dados relacionados a pessoas e registros demográficos. 
 
         **Descrição das colunas principais:**
-        - **Data:** Data de referência do registro.
+        - **Data:** Data de referência do registro (janeiro a agosto de 2017).
         - **Sexo:** Masculino ou Feminino.
         - **Idade:** Idade em anos.
         - **UF:** Unidade Federativa (estado brasileiro).

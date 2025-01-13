@@ -13,7 +13,7 @@ Before uploading the data to the AWS PostgreSQL database, the dataset was prepro
 1. **Relevant Columns Selected**:
    Only the following columns were retained from the original dataset:
 
-   - `REF_DATE`: Reference date of the record.
+   - `REF_DATE`: Reference date of the record (Jan to Aug of 2017).
    - `TARGET`: Binary target for default (1 = Defaulter, i.e., overdue > 60 days in 2 months; 0 = Non-Defaulter).
    - `VAR2`: Gender of the individual.
    - `IDADE`: Age of the individual.

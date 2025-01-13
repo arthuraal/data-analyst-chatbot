@@ -4,7 +4,6 @@ import re
 from openai import OpenAI
 from langchain_community.utilities.sql_database import SQLDatabase
 from app.query_execution import execute_query
-from app.utils import get_structure_postgresql
 from app.model_handler import ModelHandler, OpenAIStrategy, BedrockStrategy
 from app.prompts import prompt_text_to_sql, prompt_sql_to_text
 
