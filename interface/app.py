@@ -13,6 +13,7 @@ st.markdown("""
 ### Objetivo
 Este chatbot foi desenvolvido para auxiliar usuários em tarefas de análise de dados demográficos e estatísticos de um conjunto de dados específico.
 É importante que suas perguntas esteja relacionadas aos dados fornecidos. Para mais informações sobre os dados, clique na seção "Sobre os Dados 📊" na barra lateral.
+A saída está limitada a 5 resultados usando a cláusula LIMIT, caso queira que mais resultados sejam apresentados, basta informar na pergunta.
 
 ---
 
